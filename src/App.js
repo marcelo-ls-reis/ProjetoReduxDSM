@@ -8,7 +8,7 @@ import Sorteio from "./components/Sorteio"
 
 function App(){
 
-  const [min, setMin] = useState(5);
+  const [min, setMin] = useState(0);
   const [max, setMax] = useState(50);
 
   return (
@@ -16,7 +16,7 @@ function App(){
       <h1>Projeto-Redux</h1>
       
       <div className="linha">
-        <Intervalo min={min} max={max}></Intervalo>
+        <Intervalo min={min} max={max} onMinChanged={setMin} onMaxChanged={setMax}></Intervalo>
       </div>
 
       <div className="linha">
