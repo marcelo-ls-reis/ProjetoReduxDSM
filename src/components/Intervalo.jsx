@@ -1,7 +1,7 @@
 import "./Intervalo.css";
 import React from "react";
-
 import Card from "./Card";
+import {connect} from 'react-redux'
 
 export default props => {
 
