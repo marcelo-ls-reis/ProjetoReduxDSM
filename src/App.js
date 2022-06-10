@@ -1,26 +1,33 @@
 import React, { useState } from "react";
 import './App.css'
 
-import Intervalo from "./components/Numero";
-import Media from "./components/Media"
-import Soma from "./components/Soma"
+import Numero from "./components/Numero";
+import Recesso from "./components/Recesso"
+import Propiedades from "./components/Propiedades"
 import Sorteio from "./components/Sorteio"
+import Desafio from "./components/Desafio"
 
-function App(){
+function App() {
 
   return (
     <div className="App">
       <h1>PROJETO AVALIATIVO REACT-REDUX 2º BIMESTRE</h1>
-      
-      <div className="linha">
-        <Intervalo></Intervalo>
+      <div>
+        <Desafio></Desafio>
       </div>
-
       <div className="linha">
-        <Media></Media>
-        <Soma></Soma>
+        <Numero></Numero>
+      </div>
+      <div className="linha">
+      <Propiedades></Propiedades>
+      </div> 
+      <div className="linha">
         <Sorteio></Sorteio>
       </div>
+      <div className="linha">
+        <Recesso></Recesso>
+      </div>
+
 
     </div>
   )
