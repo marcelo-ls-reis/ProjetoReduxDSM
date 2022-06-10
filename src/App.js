@@ -12,24 +12,24 @@ function App() {
   return (
     <div className="App">
       <h1>PROJETO AVALIATIVO REACT-REDUX 2º BIMESTRE</h1>
-      <div>
-        <Desafio></Desafio>
-      </div>
-      <div className="linha">
+        <div>
+          <Desafio></Desafio>
+        </div>
+          <div className="linha">
         <Numero></Numero>
-      </div>
-      <div className="linha">
-      <Propiedades></Propiedades>
-      </div> 
-      <div className="linha">
-        <Sorteio></Sorteio>
-      </div>
-      <div className="linha">
-        <Recesso></Recesso>
-      </div>
-
-
-    </div>
+        </div>
+        <div className="linha">
+          <Propiedades>
+            
+          </Propiedades>
+        </div> 
+        <div className="linha">
+          <Sorteio></Sorteio>
+        </div>
+        <div className="linha">
+          <Recesso></Recesso>
+        </div>
+   </div>
   )
 }
 
