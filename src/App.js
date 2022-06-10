@@ -19,7 +19,7 @@ function App() {
         <Numero></Numero>
         </div>
         <div className="linha">
-          <Propiedades>
+          <Propiedades titulo = "QUAL SUA NOTA?" nome = "Marcelo Luiz Siqueira Reis sua nota é: ">
             
           </Propiedades>
         </div> 

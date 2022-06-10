@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import Card from "./Card"
 
-function Sorteio(props){
+const Sorteio = (props) => {
     const { num } = props
     const aleatorio = parseInt(Math.random() * num) 
 
